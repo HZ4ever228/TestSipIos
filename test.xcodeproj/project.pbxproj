@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4338C964288835E200B99887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338C963288835E200B99887 /* AppDelegate.swift */; };
+		4338C966288835E200B99887 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338C965288835E200B99887 /* SceneDelegate.swift */; };
+		4338C968288835E200B99887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338C967288835E200B99887 /* ViewController.swift */; };
+		4338C96B288835E200B99887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4338C969288835E200B99887 /* Main.storyboard */; };
+		4338C96D288835E700B99887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4338C96C288835E700B99887 /* Assets.xcassets */; };
+		4338C970288835E700B99887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4338C96E288835E700B99887 /* LaunchScreen.storyboard */; };
+		4338C9792888361200B99887 /* test-objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4338C9782888361200B99887 /* test-objc.m */; };
+		4338C9F028885CAF00B99887 /* libpj-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C97B2888373000B99887 /* libpj-arm64-apple-darwin_ios.a */; };
+		4338C9F128885CC400B99887 /* libpjlib-util-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C9802888376F00B99887 /* libpjlib-util-arm64-apple-darwin_ios.a */; };
+		4338C9F228885CD100B99887 /* libpjmedia-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C984288837A700B99887 /* libpjmedia-arm64-apple-darwin_ios.a */; };
+		4338C9F328885CD100B99887 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C986288837A700B99887 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */; };
+		4338C9F428885CD100B99887 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C987288837A700B99887 /* libpjmedia-codec-arm64-apple-darwin_ios.a */; };
+		4338C9F528885CD100B99887 /* libpjmedia-videodev-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C989288837A700B99887 /* libpjmedia-videodev-arm64-apple-darwin_ios.a */; };
+		4338C9F628885CD100B99887 /* libpjsdp-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C98A288837A700B99887 /* libpjsdp-arm64-apple-darwin_ios.a */; };
+		4338C9F728885CDD00B99887 /* libpjnath-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C997288837E000B99887 /* libpjnath-arm64-apple-darwin_ios.a */; };
+		4338C9F828885CEC00B99887 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C9A42888380C00B99887 /* libpjsip-arm64-apple-darwin_ios.a */; };
+		4338C9F928885CEC00B99887 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C99C2888380C00B99887 /* libpjsip-simple-arm64-apple-darwin_ios.a */; };
+		4338C9FA28885CEC00B99887 /* libpjsip-ua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C99F2888380C00B99887 /* libpjsip-ua-arm64-apple-darwin_ios.a */; };
+		4338C9FB28885CEC00B99887 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C99B2888380C00B99887 /* libpjsua-arm64-apple-darwin_ios.a */; };
+		4338C9FC28885CEC00B99887 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4338C9A12888380C00B99887 /* libpjsua2-arm64-apple-darwin_ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4338C960288835E100B99887 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4338C963288835E200B99887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4338C965288835E200B99887 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4338C967288835E200B99887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4338C96A288835E200B99887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4338C96C288835E700B99887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4338C96F288835E700B99887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4338C971288835E700B99887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4338C9772888361200B99887 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
+		4338C9782888361200B99887 /* test-objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "test-objc.m"; sourceTree = "<group>"; };
+		4338C97B2888373000B99887 /* libpj-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpj-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjlib/lib/libpj-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C97C2888373000B99887 /* libpj-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpj-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjlib/lib/libpj-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C97F2888376F00B99887 /* libpjlib-util-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjlib-util-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjlib-util/lib/libpjlib-util-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C9802888376F00B99887 /* libpjlib-util-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjlib-util-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjlib-util/lib/libpjlib-util-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C981288837A700B99887 /* libpjmedia-videodev-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-videodev-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-videodev-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C982288837A700B99887 /* libpjmedia-codec-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-codec-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C983288837A700B99887 /* libpjsdp-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsdp-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjsdp-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C984288837A700B99887 /* libpjmedia-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C985288837A700B99887 /* libpjmedia-audiodev-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-audiodev-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-audiodev-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C986288837A700B99887 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-audiodev-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-audiodev-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C987288837A700B99887 /* libpjmedia-codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C988288837A700B99887 /* libpjmedia-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C989288837A700B99887 /* libpjmedia-videodev-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-videodev-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjmedia-videodev-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C98A288837A700B99887 /* libpjsdp-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsdp-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjmedia/lib/libpjsdp-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C997288837E000B99887 /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C998288837E000B99887 /* libpjnath-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjnath/lib/libpjnath-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C99B2888380C00B99887 /* libpjsua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C99C2888380C00B99887 /* libpjsip-simple-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-simple-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsip-simple-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C99D2888380C00B99887 /* libpjsip-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsip-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C99E2888380C00B99887 /* libpjsip-simple-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-simple-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsip-simple-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C99F2888380C00B99887 /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C9A02888380C00B99887 /* libpjsip-ua-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsip-ua-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C9A12888380C00B99887 /* libpjsua2-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua2-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsua2-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C9A22888380C00B99887 /* libpjsua-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsua-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C9A32888380C00B99887 /* libpjsua2-x86_64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua2-x86_64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsua2-x86_64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4338C9A42888380C00B99887 /* libpjsip-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-arm64-apple-darwin_ios.a"; path = "../pjproject-2.12.1/pjsip/lib/libpjsip-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4338C95D288835E100B99887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4338C9F428885CD100B99887 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F528885CD100B99887 /* libpjmedia-videodev-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F328885CD100B99887 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9FC28885CEC00B99887 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F728885CDD00B99887 /* libpjnath-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9FB28885CEC00B99887 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F128885CC400B99887 /* libpjlib-util-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F628885CD100B99887 /* libpjsdp-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F228885CD100B99887 /* libpjmedia-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F028885CAF00B99887 /* libpj-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F828885CEC00B99887 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9F928885CEC00B99887 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */,
+				4338C9FA28885CEC00B99887 /* libpjsip-ua-arm64-apple-darwin_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4338C957288835E100B99887 = {
+			isa = PBXGroup;
+			children = (
+				4338C962288835E200B99887 /* test */,
+				4338C961288835E200B99887 /* Products */,
+				4338C97A2888373000B99887 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4338C961288835E200B99887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4338C960288835E100B99887 /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4338C962288835E200B99887 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				4338C963288835E200B99887 /* AppDelegate.swift */,
+				4338C965288835E200B99887 /* SceneDelegate.swift */,
+				4338C967288835E200B99887 /* ViewController.swift */,
+				4338C969288835E200B99887 /* Main.storyboard */,
+				4338C96C288835E700B99887 /* Assets.xcassets */,
+				4338C96E288835E700B99887 /* LaunchScreen.storyboard */,
+				4338C971288835E700B99887 /* Info.plist */,
+				4338C9782888361200B99887 /* test-objc.m */,
+				4338C9772888361200B99887 /* test-Bridging-Header.h */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		4338C97A2888373000B99887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4338C9A42888380C00B99887 /* libpjsip-arm64-apple-darwin_ios.a */,
+				4338C99C2888380C00B99887 /* libpjsip-simple-arm64-apple-darwin_ios.a */,
+				4338C99E2888380C00B99887 /* libpjsip-simple-x86_64-apple-darwin_ios.a */,
+				4338C99F2888380C00B99887 /* libpjsip-ua-arm64-apple-darwin_ios.a */,
+				4338C9A02888380C00B99887 /* libpjsip-ua-x86_64-apple-darwin_ios.a */,
+				4338C99D2888380C00B99887 /* libpjsip-x86_64-apple-darwin_ios.a */,
+				4338C99B2888380C00B99887 /* libpjsua-arm64-apple-darwin_ios.a */,
+				4338C9A22888380C00B99887 /* libpjsua-x86_64-apple-darwin_ios.a */,
+				4338C9A12888380C00B99887 /* libpjsua2-arm64-apple-darwin_ios.a */,
+				4338C9A32888380C00B99887 /* libpjsua2-x86_64-apple-darwin_ios.a */,
+				4338C997288837E000B99887 /* libpjnath-arm64-apple-darwin_ios.a */,
+				4338C998288837E000B99887 /* libpjnath-x86_64-apple-darwin_ios.a */,
+				4338C984288837A700B99887 /* libpjmedia-arm64-apple-darwin_ios.a */,
+				4338C986288837A700B99887 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */,
+				4338C985288837A700B99887 /* libpjmedia-audiodev-x86_64-apple-darwin_ios.a */,
+				4338C987288837A700B99887 /* libpjmedia-codec-arm64-apple-darwin_ios.a */,
+				4338C982288837A700B99887 /* libpjmedia-codec-x86_64-apple-darwin_ios.a */,
+				4338C989288837A700B99887 /* libpjmedia-videodev-arm64-apple-darwin_ios.a */,
+				4338C981288837A700B99887 /* libpjmedia-videodev-x86_64-apple-darwin_ios.a */,
+				4338C988288837A700B99887 /* libpjmedia-x86_64-apple-darwin_ios.a */,
+				4338C98A288837A700B99887 /* libpjsdp-arm64-apple-darwin_ios.a */,
+				4338C983288837A700B99887 /* libpjsdp-x86_64-apple-darwin_ios.a */,
+				4338C9802888376F00B99887 /* libpjlib-util-arm64-apple-darwin_ios.a */,
+				4338C97F2888376F00B99887 /* libpjlib-util-x86_64-apple-darwin_ios.a */,
+				4338C97B2888373000B99887 /* libpj-arm64-apple-darwin_ios.a */,
+				4338C97C2888373000B99887 /* libpj-x86_64-apple-darwin_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4338C95F288835E100B99887 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4338C974288835E700B99887 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				4338C95C288835E100B99887 /* Sources */,
+				4338C95D288835E100B99887 /* Frameworks */,
+				4338C95E288835E100B99887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 4338C960288835E100B99887 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4338C958288835E100B99887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4338C95F288835E100B99887 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 4338C95B288835E100B99887 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4338C957288835E100B99887;
+			productRefGroup = 4338C961288835E200B99887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4338C95F288835E100B99887 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4338C95E288835E100B99887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4338C970288835E700B99887 /* LaunchScreen.storyboard in Resources */,
+				4338C96D288835E700B99887 /* Assets.xcassets in Resources */,
+				4338C96B288835E200B99887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4338C95C288835E100B99887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4338C968288835E200B99887 /* ViewController.swift in Sources */,
+				4338C9792888361200B99887 /* test-objc.m in Sources */,
+				4338C964288835E200B99887 /* AppDelegate.swift in Sources */,
+				4338C966288835E200B99887 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4338C969288835E200B99887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4338C96A288835E200B99887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4338C96E288835E700B99887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4338C96F288835E700B99887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4338C972288835E700B99887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib-util/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjmedia/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjnath/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjsip/include\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../pjproject-2.12.1/third_party/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib-util/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjmedia/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjnath/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjsip/lib\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4338C973288835E700B99887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib-util/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjmedia/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjnath/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjsip/include\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../pjproject-2.12.1/third_party/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib-util/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjmedia/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjnath/lib\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjsip/lib\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4338C975288835E700B99887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ASSJS6XBQ;
+				GCC_PREPROCESSOR_DEFINITIONS = PJ_AUTOCONF;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib-util/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjmedia/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjnath/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjsip/include\"",
+				);
+				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teluu.ipjsuaHZ4ever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4338C976288835E700B99887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ASSJS6XBQ;
+				GCC_PREPROCESSOR_DEFINITIONS = PJ_AUTOCONF;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjlib-util/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjmedia/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjnath/include\"",
+					"\"$(SRCROOT)/../pjproject-2.12.1/pjsip/include\"",
+				);
+				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teluu.ipjsuaHZ4ever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4338C95B288835E100B99887 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4338C972288835E700B99887 /* Debug */,
+				4338C973288835E700B99887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4338C974288835E700B99887 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4338C975288835E700B99887 /* Debug */,
+				4338C976288835E700B99887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4338C958288835E100B99887 /* Project object */;
+}

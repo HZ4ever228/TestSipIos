@@ -1,1 +1,0 @@
-export LDFLAGS += -framework Network -framework Security -framework VideoToolbox
